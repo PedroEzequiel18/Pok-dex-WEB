@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex-WEB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="pokebola">
+      <div id="parte-cima">
+        <h1>Pokédex-WEB</h1>
+      </div>
+      <div id="linha-meio">
+        <div id="circulo-centro"></div>
+      </div>
+      <div id="parte-baixo">
+        <input id="input-busca" type="text" placeholder="Buscar Pokémon..." />
+        <button id="btn-buscar">Buscar</button>
+        <div id="resultado" class="oculto">
+          <img id="pokemon-image" src="" alt="Imagem do Pokémon" />
+          <h2 id="pokemon-name"></h2>
+          <p id="pokemon-type"></p>
+        </div>
+        <div id="erro" class="oculto">
+          <p id="erro-message"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
