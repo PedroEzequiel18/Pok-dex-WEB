@@ -46,7 +46,7 @@ button {
 }
 
 body {
-  background-image: url("background.jpg.jpg");
+  background-image: url("img.jpg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
